@@ -4,6 +4,7 @@ A complete full-stack task management application built with MongoDB, Express, R
 
 ## Project Structure
 
+\`\`\`
 task-management-app/
 ├── backend/                    # Express.js backend
 │   ├── models/
@@ -34,7 +35,7 @@ task-management-app/
     │   ├── index.js           # React entry point
     │   └── index.css          # Global styles
     └── package.json
-
+\`\`\`
 
 ## Features
 
