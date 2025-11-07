@@ -2,41 +2,6 @@
 
 A complete full-stack task management application built with MongoDB, Express, React, and Node.js.
 
-## Project Structure
-
-\`\`\`
-task-management-app/
-├── backend/                    # Express.js backend
-│   ├── models/
-│   │   ├── User.js            # User schema
-│   │   └── Task.js            # Task schema
-│   ├── routes/
-│   │   ├── auth.js            # Auth endpoints
-│   │   └── tasks.js           # Task CRUD endpoints
-│   ├── middleware/
-│   │   └── auth.js            # JWT authentication
-│   ├── server.js              # Main server file
-│   ├── package.json
-│   └── .env.example
-│
-└── frontend/                   # React frontend
-    ├── public/
-    │   └── index.html
-    ├── src/
-    │   ├── components/
-    │   │   ├── TaskForm.js    # Task form component
-    │   │   ├── TaskList.js    # Task list component
-    │   │   └── TaskCard.js    # Individual task card
-    │   ├── pages/
-    │   │   ├── Home.js        # Main dashboard
-    │   │   ├── SignIn.js      # Sign in page
-    │   │   └── SignUp.js      # Sign up page
-    │   ├── App.js             # Main app component
-    │   ├── index.js           # React entry point
-    │   └── index.css          # Global styles
-    └── package.json
-\`\`\`
-
 ## Features
 
 - User Authentication (Sign Up & Sign In)
@@ -132,7 +97,7 @@ PORT=5000
 
 - **Frontend**: React, React Router, Axios
 - **Backend**: Express.js, Node.js
-- **Database**: MongoDB, Mongoose
+- **Database**: MongoDB
 - **Authentication**: JWT, bcryptjs
 - **Styling**: CSS3
 
@@ -145,3 +110,39 @@ PORT=5000
 - Task search functionality
 - Task comments
 - User profile customization
+
+
+## Project Structure
+
+\`\`\`
+task-management-app/
+├── backend/                    # Express.js backend
+│   ├── models/
+│   │   ├── User.js            # User schema
+│   │   └── Task.js            # Task schema
+│   ├── routes/
+│   │   ├── auth.js            # Auth endpoints
+│   │   └── tasks.js           # Task CRUD endpoints
+│   ├── middleware/
+│   │   └── auth.js            # JWT authentication
+│   ├── server.js              # Main server file
+│   ├── package.json
+│   └── .env.example
+│
+└── frontend/                   # React frontend
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── TaskForm.js    # Task form component
+    │   │   ├── TaskList.js    # Task list component
+    │   │   └── TaskCard.js    # Individual task card
+    │   ├── pages/
+    │   │   ├── Home.js        # Main dashboard
+    │   │   ├── SignIn.js      # Sign in page
+    │   │   └── SignUp.js      # Sign up page
+    │   ├── App.js             # Main app component
+    │   ├── index.js           # React entry point
+    │   └── index.css          # Global styles
+    └── package.json
+\`\`\`
